@@ -1,0 +1,130 @@
+.feul-wrapper.users-list .tablenav {
+    overflow: hidden;
+}
+
+.feul-wrapper.users-list a {
+    color: #a5a5a5;
+}
+
+.feul-wrapper.users-list div {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+.feul-wrapper.users-list .tablenav .users-roles-div {
+    float: right;
+    width: 50%;
+}
+
+.feul-wrapper.users-list .tablenav .users-list-pagination {
+    float: left;
+    width: 50%;
+}
+
+.feul-wrapper.users-list .tablenav ul.users-roles-nav li {
+    list-style: none;
+    display: inline;
+}
+
+.feul-wrapper.users-list .tablenav ul.users-roles-nav li {
+    color: #716a6a;
+}
+
+.feul-wrapper.users-list .tablenav ul.users-roles-nav li a.current {
+    color: #111;
+    font-weight: bold;
+}
+
+
+.feul-wrapper.users-list .tablenav-pages .current-page-selector {
+    margin: 0 2px 0 0;
+    padding: 4px 5px 5px;
+    font-size: 13px;
+    text-align: center;
+    height: 28px;
+    vertical-align: top;
+}
+
+.feul-wrapper.users-list .tablenav-pages .pagination-links a[disabled=disabled],
+.feul-wrapper.users-list .tablenav-pages .pagination-links a[disabled=disabled]:hover {
+    background-color: #eeeeee;
+    color: #cccccc;
+    border-color: #dddddd;
+    cursor: default;
+    display: none
+}
+
+.feul-wrapper.users-list .users-roles-div li:last-child .separator {
+    display: none;
+}
+
+.feul-wrapper.users-list table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 90%;
+}
+
+/* top-left border-radius */
+.feul-wrapper.users-list table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+.feul-wrapper.users-list table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+.feul-wrapper.users-list table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+.feul-wrapper.users-list table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.feul-wrapper.users-list table tr th,
+.feul-wrapper.users-list table tr td {
+    border-bottom: 1px solid #dcdcdc;
+    padding: 5px;
+}
+
+.feul-wrapper.users-list table tr th:first-child,
+.feul-wrapper.users-list table tr td:first-child {
+    border-left: 1px solid #dcdcdc;
+}
+
+.feul-wrapper.users-list table tr th:last-child,
+.feul-wrapper.users-list table tr td:last-child {
+    border-right: 1px solid #dcdcdc;
+}
+
+.feul-wrapper.users-list table tr th {
+    background: linear-gradient(0deg, rgba(232, 232, 232, 1) 35%, rgba(243, 243, 243, 1) 100%);
+    text-align: center;
+    border-top: solid 1px #dcdcdc;
+    color: #a5a5a5;
+    padding: 15px;
+}
+
+.feul-wrapper.users-list table tr th a,
+.feul-wrapper.users-list table tr td a,
+.feul-wrapper.users-list table tr td {
+    color: #a5a5a5;
+}
+
+.feul-wrapper.users-list table tr td a {
+    font-weight: normal;
+}
+
+.feul-wrapper.users-list table tr td {
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+
+.feul-wrapper.users-list table,
+.feul-wrapper.users-list table td {
+    text-align: center
+}

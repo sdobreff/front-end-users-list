@@ -1,0 +1,22 @@
+{
+  "name": "front-end-users-list/front-end-users-list.php",
+  "description": "Front End Users List plugin",
+  "type": "wordpress-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "sdobreff",
+      "email": "s.n.dobreff@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "includes/",
+      "admin/",
+      "front-end/"
+    ]
+  }
+}
