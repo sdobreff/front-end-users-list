@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export REPO_NAME=$(basename $GITPOD_REPO_ROOT)
 
 sudo ln -s $GITPOD_REPO_ROOT /var/www/html/wp-content/plugins
