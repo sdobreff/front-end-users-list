@@ -22,3 +22,5 @@ tasks:
       sudo service nginx start
       sudo mailhog </dev/null &>/dev/null & disown
       /bin/bash .init.sh
+
+workspaceLocation: "/var/www/html"
