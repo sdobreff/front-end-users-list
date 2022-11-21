@@ -15,10 +15,6 @@ ports:
     onOpen: ignore
 
 tasks:
-  - init: mysql start # or wp-setup-theme
-    command: php8.1-fom start
-  
-  # start MailHog (SMTP testing tool) 
-  - command: mailhogs
-
-  - command: nginx start
+  - name: Init them all
+    command: |
+      /bin/bash ${PROJECT_PATH}/.init.sh
