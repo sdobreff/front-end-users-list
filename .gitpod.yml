@@ -13,3 +13,12 @@ ports:
     onOpen: ignore
   - port: 9000
     onOpen: ignore
+
+tasks:
+  - init: mysql start # or wp-setup-theme
+    command: php8.1-fom start
+  
+  # start MailHog (SMTP testing tool) 
+  - command: mailhogs
+
+  - command: nginx start
