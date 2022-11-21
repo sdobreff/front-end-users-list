@@ -13,8 +13,3 @@ ports:
     onOpen: ignore
   - port: 9000
     onOpen: ignore
-
-tasks:
-  - name: Init them all
-    command: |
-      /bin/bash ${PROJECT_PATH}/.init.sh
