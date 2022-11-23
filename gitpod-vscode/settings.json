@@ -1,0 +1,35 @@
+{
+    "editor.detectIndentation": true,
+    "editor.renderWhitespace": "all",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "blockman.n01LineHeight": 23,
+    "blockman.n02EachCharFrameWidth": 9.321,
+    "blockman.n23AnalyzeSquareBrackets": true,
+    "phpsab.fixerEnable": true,
+    "phpsab.snifferEnable": true,
+    "phpsab.snifferMode": "onSave",
+    "phpsab.snifferTypeDelay": 250,
+    "phpsab.snifferShowSources": true,
+    "phpsab.executablePathCS": "/usr/local/bin/phpcs",
+    "phpsab.executablePathCBF": "/usr/local/bin/phpcbf",
+    "phpsab.standard": "WordPressOrg,WordPress-ExtraOrg,WordPress-DocsOrg",
+    /* WordPress-Extra,WordPress,,WordPress-Docs */
+    "phpsab.debug": false,
+    "phpsab.allowedAutoRulesets": [
+        ".phpcs.xml",
+        ".phpcs.xml.dist",
+        "phpcs.xml",
+        "phpcs.xml.dist",
+        "phpcs.ruleset.xml",
+        "ruleset.xml"
+    ],
+    "phpmd.rules": "codesize,design,unusedcode,naming",
+    "namespaceResolver.autoImportOnSave": true,
+    "phpResolver.phpLogFile": "/Users/sdobreff/MyProjects/WpWhiteSecurity/WP2FA/wp2fa/log.log",
+    "phpResolver.phpLogFilePathRemote": "/var/www/html/",
+    "phpResolver.phpLogFilePathLocal": "/Users/sdobreff/MyProjects/WpWhiteSecurity/WP2FA/wp2fa/",
+    "phpResolver.phpBeautifierCommand": "/usr/bin/phpcbf",
+    "phpResolver.phpSnifferCommand": "/usr/bin/phpcs",
+    "phpResolver.phpStandards": "WordPressOrg,WordPress-ExtraOrg,WordPress-DocsOrg"
+}
