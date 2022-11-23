@@ -24,3 +24,10 @@ tasks:
       /bin/bash .init.sh
 
 workspaceLocation: "var/www/html"
+
+vscode:
+  extensions:
+    - usernamehw.errorlens
+    - eamodio.gitlens
+    - StoilDobreff.php-resolver
+    - felixfbecker.php-debug
